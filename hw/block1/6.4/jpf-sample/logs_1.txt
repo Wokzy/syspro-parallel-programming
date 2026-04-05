@@ -1,0 +1,38 @@
+JavaPathfinder core system v8.0 (rev f70927ce05b165addb02e9c232af74e9737e09bf) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+Task13.main("0")
+
+====================================================== search started: 4/5/26, 9:33 AM
+x =  1, y =  0, z =  1 | 
+x =  1, y =  0, z =  1 | 
+x =  1, y =  0, z =  1 | 
+x =  1, y =  1, z =  1 | 
+x =  1, y =  1, z =  1 | 
+x =  1, y =  1, z =  1 | 
+x =  0, y =  2, z =  1 | 
+x =  0, y =  2, z =  1 | 
+x =  0, y =  2, z =  1 | 
+x =  1, y =  2, z =  1 | 
+x =  1, y =  2, z =  1 | 
+x =  1, y =  2, z =  1 | 
+x =  1, y =  0, z =  1 | 
+x =  1, y =  1, z =  1 | 
+x =  0, y =  2, z =  1 | 
+x =  1, y =  2, z =  1 | 
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:00:01
+states:             new=8049,visited=15238,backtracked=23287,end=16
+search:             maxDepth=45,constraints=0
+choice generators:  thread=8046 (signal=0,lock=2400,sharedRef=3217,threadApi=125,reschedule=2304), data=0
+heap:               new=12719,released=423,maxLive=815,gcCycles=14526
+instructions:       101468
+max memory:         190MB
+loaded code:        classes=96,methods=2490
+
+====================================================== search finished: 4/5/26, 9:33 AM
