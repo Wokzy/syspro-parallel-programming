@@ -2,7 +2,7 @@
 
 - CSjA: thread A executes critical section for j-th time.
 - Mutual exclusion: Critical sections of different threads do not overlap. ∀A, B, k, j CSkA → CSjB or CSjB → CSkA
-- If some thread attempts to acquire the lock, then some thread will succeed in acquiring the lock. If thread A calls lock() but never acquires the lock, then other threads must be completing an infinite number of critical sections.
+- Deadlock-freedom: If some thread attempts to acquire the lock, then some thread will succeed in acquiring the lock. If thread A calls lock() but never acquires the lock, then other threads must be completing an infinite number of critical sections.
 - Freedom from starvation (lockout freedom): Every thread that attempts to acquire the lock eventually succeeds. Every call to lock() eventually returns.
 
 - Доказывать будем в предположении, что интервалы событий записи и чтения не пересекаются.
